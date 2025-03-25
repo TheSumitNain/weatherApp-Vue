@@ -1,29 +1,49 @@
-# app
+🌤 Weather App - Vue.js
+A simple weather forecast application built using Vue.js and OpenWeatherMap API. This app allows users to search for cities and view weather details, including a 5-day forecast with temperature, weather icons, and dates.
 
-This template should help get you started developing with Vue 3 in Vite.
+🚀 Features
+✅ Search for any city
+✅ Auto-suggestions while typing city names
+✅ 5-day weather forecast
+✅ Responsive design for all devices
 
-## Recommended IDE Setup
+🛠 Tech Stack:-
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+Vue.js 3
+OpenWeatherMap API
 
-## Customize configuration
 
-See [Vite Configuration Reference](https://vite.dev/config/).
 
-## Project Setup
+🔧 Installation:-
 
-```sh
+Follow these steps to set up the project locally:
+
+# Clone the repository
+git clone https://github.com/TheSumitNain/weatherApp-Vue.git
+
+# Navigate into the project directory
+cd weatherApp-Vue
+
+# Install dependencies
 npm install
-```
 
-### Compile and Hot-Reload for Development
-
-```sh
+# Run the development server
 npm run dev
-```
 
-### Compile and Minify for Production
 
-```sh
-npm run build
-```
+
+🌎 API Setup
+To fetch weather data, you need an OpenWeatherMap API key:
+
+Sign up at OpenWeatherMap.
+
+Get your API Key from the dashboard.
+
+
+
+🎯 Usage
+Start typing a city name in the search bar.
+
+Select a city from the suggested list.
+
+View the current weather and 5-day forecast.

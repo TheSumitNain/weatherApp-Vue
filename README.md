@@ -7,13 +7,15 @@ A simple weather forecast application built using Vue.js and OpenWeatherMap API.
 ✅ 5-day weather forecast
 ✅ Responsive design for all devices
 
-🛠 Tech Stack
+🛠 Tech Stack:-
+
 Vue.js 3
 OpenWeatherMap API
 
 
 
-🔧 Installation
+🔧 Installation:-
+
 Follow these steps to set up the project locally:
 
 # Clone the repository

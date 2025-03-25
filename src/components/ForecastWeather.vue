@@ -1,7 +1,7 @@
 <template>
   <div class="forecast_Data_div">
     <div v-if="isloading"  class="skeleton_loader">
-        <div v-for="n in 3" :key="n" class="skeleton today_data_table_skeleton">
+        <div v-for="n in 3" :key="n" class="skeleton forecast_data_table_skeleton">
     </div>
     </div>
 

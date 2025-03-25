@@ -1,0 +1,21 @@
+.app_div {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(228, 234, 242);
+    font-family: Arial, sans-serif;
+    padding-bottom: 50px;
+  }
+
+
+
+
+  @media (max-width: 850px) {
+
+    .app_div {
+        padding-bottom: 30px;
+      }
+
+  }

@@ -170,3 +170,248 @@
         background-position: 200% 0;
     }
 }
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 850px) {
+
+    .todayData_div {
+        width: 95%;
+    }
+    
+    .today_data_weather_div {
+        flex-direction: row;
+        align-items: center;  
+    }
+
+    .today_data_weather_left_main_temp {
+        font-size: 80px;
+    }
+    
+    .today_data_weather_temp_unit_div {
+        margin-left: 16px;
+    }
+    
+    .today_data_weather_right_div {
+        align-items: flex-end;
+        padding: 0 16px 0 0;
+    }
+      
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 680px) {
+
+    .todayData_div {
+        width: calc(100% - 16px);
+    }
+    
+    .today_data_header_div {
+        height: 50px;
+        padding: 0 10px;
+        font-size: 16px;
+    }
+    
+    .today_data_weather_div {
+        flex-direction: row;
+        align-items: center;  
+      }
+    
+    .today_data_weather_left_div {
+        width: 60%;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .today_data_weather_img_div {
+        width: 120px;
+        height: 120px;
+    }
+    
+    .today_data_weather_left_main_temp {
+        font-size: 60px;
+    }
+    
+    .today_data_weather_temp_unit_div {
+        margin-left: 10px;
+    }
+    
+    .today_data_weather_temp_unit_active {
+        font-size: 30px;
+    }
+    
+    .today_data_weather_temp_unit_inactive {
+        font-size: 16px;
+    }
+    
+    .today_data_weather_right_div {
+        width: 40%;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0 10px 0 0;
+    }
+    
+    .today_data_weather_right_div > p {
+        font-size: 22px;
+    }
+    
+    .today_data_main_description {
+        font-size: 24px;
+        padding: 0 10px;
+    }
+    
+    .today_data_table_div {
+        flex-direction: column;
+        gap: 0;
+    }
+    
+    .today_data_table {
+        margin-top: 0px;
+    }
+        
+    .today_data_table > tr > td {
+        padding: 10px 10px;
+    }
+    
+    .today_data_table:first-child > tr:last-child{
+        border-bottom: 1px solid #ddd;
+    }
+    
+    .today_data_table > tr > td > i {
+        margin-right: 6px;
+    }
+    
+    
+    .skeleton_loader {
+        gap: 10px;
+        padding: 10px;
+    }
+    
+    .today_data_weather_skeleton {
+        height: 120px;
+    }
+    
+    .today_data_table_skeleton {
+        height: 300px;
+    }
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 500px) {
+
+    .todayData_div {
+        width: calc(100% - 16px);
+    }
+    
+    .today_data_header_div {
+        height: 40px;
+        padding: 0 10px;
+        font-size: 14px;
+    }
+    
+    .today_data_weather_div {
+        flex-direction: column;
+        align-items: flex-start;  
+      }
+    
+    .today_data_weather_left_div {
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .today_data_weather_img_div {
+        width: 120px;
+        height: 120px;
+        padding: 0;
+        margin: 0 0 0 -30px;
+    }
+    
+    .today_data_weather_left_main_temp {
+        font-size: 60px;
+    }
+    
+    .today_data_weather_temp_unit_div {
+        margin-left: 10px;
+    }
+    
+    .today_data_weather_temp_unit_active {
+        font-size: 30px;
+    }
+    
+    .today_data_weather_temp_unit_inactive {
+        font-size: 16px;
+    }
+    
+    .today_data_weather_right_div {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 10px 10px 10px;
+        border-bottom: 1px solid #ddd;
+    }
+    
+    .today_data_weather_right_div > p {
+        font-size: 22px;
+    }
+    
+    .today_data_main_description {
+        display: none;
+    }
+    
+    .today_data_table_div {
+        flex-direction: column;
+        gap: 0;
+    }
+ 
+    
+    .today_data_table > tr > td {
+        padding: 10px 16px;
+        font-size: 14px;
+    }
+    
+    .today_data_table:first-child > tr:last-child{
+        border-bottom: 1px solid #ddd;
+    }
+
+ 
+    
+    
+    
+    
+    
+
+    
+    .today_data_table_skeleton {
+        height: 300px;
+    }
+
+}

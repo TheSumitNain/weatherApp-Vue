@@ -5,6 +5,7 @@
 
 .forecast_data_heading {
     background-color: #fff;
+    color: rgb(222, 112, 28);
     padding: 16px 0 10px 10px;
 }
 
@@ -142,4 +143,205 @@
     100% {
         background-position: 200% 0;
     }
+}
+
+
+
+
+
+
+@media (max-width: 850px) {
+
+    .forecast_Data_div {
+        width: 95%;
+    }
+    
+    .forecast_data_heading {
+        padding: 16px 0 10px 10px;
+    }
+    
+ 
+
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 680px) {
+
+    .forecast_Data_div {
+        width: calc(100% - 16px);
+        margin: 20px 0;
+    }
+    
+    .forecast_data_heading {
+        padding: 16px 0 10px 10px;
+    }
+    
+    .forecast_data_ul > li {
+      margin: 0 0 10px 0;
+      padding: 10px 0;
+    }
+    
+    
+    .forecast_data_weather_div {
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .forecast_data_weather_left_div {
+        width: 70%;
+        padding-left: 10px;
+    }
+    
+    .forecast_data_weather_img_div {
+        width: 100px;
+        height: 100px;
+        margin-left: 10px;
+    }
+    
+    .forecast_data_weather_left_main_temp {
+        font-size: 50px;
+    }
+    
+    
+    .forecast_data_weather_right_div {
+        width: 30%;
+        align-items: flex-end;
+        padding-right: 10px;
+    }
+    
+    .forecast_data_weather_right_div > p {
+        font-size: 16px;
+    }
+    
+    
+    .forecast_data_main_description {
+        font-size: 20px;
+        padding: 0 10px;
+        margin-bottom: 10px;
+    }
+    
+    .forecast_data_table_div {
+        flex-direction: column;
+        gap: 0;
+    }
+    
+    .forecast_data_table_div > table {
+        margin-top: 0;
+    }
+    
+    .forecast_data_table_div > table:first-child > tr:last-child{
+        border-bottom: 1px solid #ddd;
+    }
+    
+    .forecast_data_table_div > table > tr > td {
+        padding: 10px 10px;
+    }
+    
+    .forecast_data_table_div > table > tr > td:first-child {
+        text-align: left;
+    }
+    
+    .forecast_data_table_div > table > tr > td:last-child {
+        text-align: right;
+    }
+    
+    .forecast_data_table_div > table > tr > td > i {
+        margin-right: 6px;
+    }
+    
+    
+ 
+   
+    .forecast_data_table_skeleton {
+        height: 200px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 500px) {
+
+    .forecast_Data_div {
+        width: calc(100% - 16px);
+        margin: 20px 0 0px 0;
+    }
+    
+    .forecast_data_heading {
+        padding: 16px 0 0px 16px;
+    }
+    
+    .forecast_data_ul > li {
+      margin: 0 0 10px 0;
+      padding: 10px 0;
+    }
+    
+    
+    .forecast_data_weather_div {
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .forecast_data_weather_left_div {
+        width: 70%;
+        padding-left: 16px;
+        margin-top: -14px;
+    }
+    
+    .forecast_data_weather_img_div {
+        width: 80px;
+        height: 80px;
+        margin-left: 10px;
+    }
+    
+    .forecast_data_weather_left_main_temp {
+        font-size: 40px;
+    }
+    
+    
+    .forecast_data_weather_right_div {
+        width: 30%;
+        align-items: flex-end;
+        padding-right: 16px;
+    }
+    
+    .forecast_data_weather_right_div > p {
+        font-size: 14px;
+    }
+    
+    
+    .forecast_data_main_description {
+        font-size: 20px;
+        padding: 0 16px;
+        margin-bottom: 10px;
+    }
+    
+    .forecast_data_table_div > table > tr > td {
+        padding: 10px 16px;
+        font-size: 14px;
+    }
+
+    .forecast_data_table_div > table > tr > td > i {
+        margin-right: 4px;
+    }
+      
+    .forecast_data_table_skeleton {
+        height: 180px;
+    }
+
+
 }
